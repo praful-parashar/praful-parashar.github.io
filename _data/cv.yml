@@ -2,96 +2,97 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Praful Parashar
+    - name: Email
+      value: praful.parashar21@example.com # Replace with your email
+    - name: Location
+      value: Gurgaon, India # Replace with your location
     - name: Languages
-      value: English, German
+      value: English, Hindi # Adjust languages as needed
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelor's/Master's Degree # Update with your specific degree
+      institution: Jaypee Institute of information technologu # Replace with your university
+      year: 2015 - 2019 # Replace with your graduation years
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Major in Computer Science/Engineering # Update with your major
+        - Relevant coursework in data structures, algorithms, software engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer
+      institution: MakeMyTrip, Gurgaon, India
+      year: 20XX - Present # Update with your employment dates
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Designed and implemented scalable backend systems serving millions of users
+        - Optimized database queries resulting in X% improvement in response times
+        - Collaborated with cross-functional teams to deliver high-quality features
+        - title: Key Projects
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Led development of [specific feature/project] that [specific outcome/impact]
+            - Architected and implemented [specific system/component]
+    
+    - title: Software Engineer # Update with your actual title at UrbanPiper
+      institution: UrbanPiper, Bangalore, India # Update location if different
+      year: 2019 - 2020 # Update with your actual employment dates
       description:
-        - Description 1.
-        - Description 2.
+        - Developed and maintained backend services for restaurant management platform
+        - Implemented RESTful APIs and microservices architecture 
+        - Built integration solutions with third-party delivery platforms
+        - title: Key Projects
+          contents:
+            - Developed integration layer connecting restaurants with multiple delivery partners
+            - Implemented real-time order tracking and notification system
+            - Enhanced system reliability with comprehensive error handling and logging
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, Java. # Adjust with your specific languages
+    - title: Frameworks & Technologies
       items:
-        - Description 1.
-        - Description 2.
+        - Django, Node.js, etc. # Adjust with your frameworks
+    - title: Databases & Tools
+      items:
+        - MySQL, MongoDB, Redis, Docker, Kubernetes, etc. # Adjust with your tools
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/yourusername/project-name">Project Name</a>
+      year: 20XX - Present
+      description: Brief description of personal or open source project
+    
+    - title: <a href="https://github.com/yourusername/another-project">Another Project</a>
+      year: 20XX - 20XX
+      description: Brief description of another project
+
+- title: Certifications & Training
+  type: time_table
+  contents:
+    - year: 20XX
+      items:
+        - AWS Certified Solutions Architect # Replace with your certifications
+        - Other relevant certification
+
+- title: Professional Interests
+  type: nested_list
+  contents:
+    - title: System Design
+      items:
+        - Distributed Systems
+        - Scalable Architecture
+    - title: Software Engineering
+      items:
+        - Performance Optimization
+        - Clean Code Practices
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Reading, Traveling, etc. # Add your personal interests

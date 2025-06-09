@@ -148,9 +148,9 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
   projects:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -191,6 +191,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _news
+  
 keep_files:
   - CNAME
   - .nojekyll
